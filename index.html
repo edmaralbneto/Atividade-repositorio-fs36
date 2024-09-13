@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de GitHub</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <header>
+        <img src="image/1Artboard 1 copy.jpg" width="150px">
+    </header>
+
+    <h1>Usuários do GitHub - FS36</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Número</th>
+                <th scope="col">Avatar</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Usuário</th>
+                <th scope="col">Número de Repositórios</th>
+                <th scope="col">URL do GitHub</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="tiagolimar">
+                <td></td> <!-- Número será preenchido pelo JavaScript -->
+                <td><img class="avatar" src="" alt="Avatar"></td>
+                <td></td> <!-- Nome será preenchido pelo JavaScript -->
+                <td>@tiagolimar</td>
+                <td></td> <!-- Número de Repositórios será preenchido pelo JavaScript -->
+                <td><a href="https://github.com/tiagolimar">GitHub</a></td>
+            </tr>
+            <!-- Repetir para outros usuários com IDs únicos -->
+            <tr id="edmaralbneto">
+                <td></td>
+                <td><img class="avatar" src="" alt="Avatar"></td>
+                <td></td>
+                <td>@edmaralbneto</td>
+                <td></td>
+                <td><a href="https://github.com/edmaralbneto">GitHub</a></td>
+            </tr>
+            <!-- Continue adicionando as linhas para os outros usuários -->
+        </tbody>
+    </table>
+
+    <script src="JavaScript/index.js" defer></script>
+</body>
+</html>
